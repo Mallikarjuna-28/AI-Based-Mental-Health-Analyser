@@ -7,7 +7,7 @@ import motor.motor_asyncio
 from app.config import settings
 
 # In-memory and local JSON file persistence details
-JSON_DB_PATH = "local_db.json"
+JSON_DB_PATH = os.environ.get("JSON_DB_PATH", "local_db.json")
 
 class JSONDatabase:
     def __init__(self, path: str):
