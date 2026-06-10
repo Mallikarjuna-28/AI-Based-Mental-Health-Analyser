@@ -1,0 +1,29 @@
+# Node dependencies
+node_modules/
+dist/
+build/
+.eslintcache
+
+# Python cache and environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Local databases and secrets
+local_db.json
+.env
+backend/.env
+frontend/.env
+
+# Temporary IDE / OS files
+.gemini/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
